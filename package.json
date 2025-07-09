@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "deploying_monorepo_toVM_throughCICD",
   "private": true,
   "scripts": {
     "build": "turbo run build",
