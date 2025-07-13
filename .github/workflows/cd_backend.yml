@@ -27,4 +27,5 @@ jobs:
         echo "${{ secrets.SSH_PRIVATE_KEY }}" &> ~/ssh_key
         chmod 700 /home/runner/ssh_key   
         ssh -o StrictHostKeyChecking=no -i ~/ssh_key root@64.227.134.208 -t "docker stop cicd-test-backend && docker run --name cicd-test-backend -d -p 8080:8080 nakul03/cicd-test-backend:${{ github.sha }}"
+
         
