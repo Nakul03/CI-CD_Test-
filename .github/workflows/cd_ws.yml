@@ -21,4 +21,4 @@ jobs:
         context: .
         file: ./docker/Dockerfile.ws
         push: true
-        tags: nakul03/cicd-test-websocket:${{ github.sha }}
+        tags: nakul03/cicd-test-websocket:${{ github.sha }}    
