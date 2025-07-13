@@ -21,4 +21,4 @@ jobs:
         context: .
         file: ./docker/Dockerfile.backend
         push: true
-        tags: nakul03/CICD-Test-Backend:${{ github.sha }}  
+        tags: nakul03/CICD-Test-Backend:${{ github.sha }}
